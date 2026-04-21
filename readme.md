@@ -115,6 +115,7 @@ export default function App() {
 | **React 19 Support**      | ❌ Not supported     | ✅ Supported                                                              |
 | **Responsive Design**     | ❌ Not available     | ✅ Supports different UI for desktop and mobile                           |
 | **AMP block**             | ❌ Not available	   | ✅ Accordion, Carousel, Form, Product, Reviews, Lucky Wheel               |
+| **Migration**             | ❌ Not available     | ✅ Seamless migration from [Unlayer](https://github.com/unlayer/react-email-editor) templates |
 | **Advanced Features**     | Basic features only  | Unsplash library, File Manager, Block Studio, and many more custom blocks |
 | **Technical Support**     | Community support    | Professional technical support with faster response times                 |
 
