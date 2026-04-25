@@ -12,7 +12,17 @@ export function Toolbar() {
   const props = useEditorProps();
 
   const isPage = focusBlock?.type === BasicType.PAGE;
+  const isSection = focusBlock?.type === BasicType.SECTION;
   const isText = isTextBlock(focusBlock?.type);
+
+  const handleSaveSection = () => {
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+    if (props.onSaveSection && focusBlock && focusIdx) {
+      props.onSaveSection({ block: focusBlock, idx: focusIdx });
+    }
+  };
 
   const handleMoveUp = () => {
     moveBlock(focusIdx, getSiblingIdx(focusIdx, -1));
@@ -108,6 +118,13 @@ export function Toolbar() {
               onClick={handleSelectParent}
             />
             <ToolItem iconName='icon-copy' onClick={handleCopy} />
+            {isSection && props.onSaveSection && (
+              <ToolItem
+                iconName='icon-collection'
+                onClick={handleSaveSection}
+                title='Save as component'
+              />
+            )}
             {props.onAddCollection && (
               <ToolItem
                 iconName='icon-collection'

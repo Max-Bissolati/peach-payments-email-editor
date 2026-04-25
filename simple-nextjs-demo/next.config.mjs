@@ -1,7 +1,7 @@
 import path from 'path';
 const nextConfig = {
+  output: 'standalone',
   webpack: (config, { isServer }) => {
-    // 强制所有模块使用同一个 React 实例
     config.resolve.alias = {
       ...config.resolve.alias,
       react: path.resolve('./node_modules/react'),

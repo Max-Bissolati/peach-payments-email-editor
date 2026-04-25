@@ -37,6 +37,7 @@ export interface PropsProviderProps {
   fontList?: { value: string; label: string }[];
   onAddCollection?: (payload: CollectedBlock) => void;
   onRemoveCollection?: (payload: { id: string }) => void;
+  onSaveSection?: (payload: { block: IBlockData; idx: string }) => void;
   onUploadImage?: (data: Blob) => Promise<string>;
   interactiveStyle?: {
     hoverColor?: string;

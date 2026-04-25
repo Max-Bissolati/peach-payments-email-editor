@@ -9,40 +9,19 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import {
-  Filter,
   Mail,
-  Heart,
-  ShoppingCart,
-  Bell,
-  Users,
-  Calendar,
   Pencil,
 } from 'lucide-react';
-import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import template1 from './data/template1.json';
-import template2 from './data/template2.json';
-import template3 from './data/template3.json';
-import template4 from './data/template4.json';
-import template5 from './data/template5.json';
-import template6 from './data/template6.json';
-import template7 from './data/template7.json';
-import template8 from './data/template8.json';
 
 const navigationItems = [
   { id: 'templates', name: 'All Templates', icon: Mail, href: '/' },
 ];
 
 const emailTemplates = [
-  template1,
-  template2,
-  template3,
-  template4,
-  template5,
-  template6,
-  template7,
-  template8,
+  { ...template1, name: 'Yoyo Rewards Partner Launch', category: 'Product Launch' },
 ];
 
 export default function Component() {
@@ -50,21 +29,15 @@ export default function Component() {
 
   return (
     <div className='flex h-screen bg-gray-50'>
-      {/* Left Sidebar Navigation */}
       <div className='w-64 bg-white border-r border-gray-200 flex flex-col'>
         <div className='p-6'>
-          <h1 className='text-xl font-semibold text-gray-900 mb-6'>Email Templates</h1>
-
-          {/* Navigation Links */}
+          <h1 className='text-xl font-semibold text-gray-900 mb-6'>Peach Email Builder</h1>
           <div className='space-y-1'>
             {navigationItems.map(item => {
               const Icon = item.icon;
               const isActive = pathname === item.href;
               return (
-                <Link
-                  key={item.id}
-                  href={item.href}
-                >
+                <Link key={item.id} href={item.href}>
                   <Button
                     variant={isActive ? 'secondary' : 'ghost'}
                     className={`w-full justify-start ${
@@ -87,9 +60,7 @@ export default function Component() {
         </div>
       </div>
 
-      {/* Right Main Content Area */}
       <div className='flex-1 flex flex-col'>
-        {/* Template Grid */}
         <div className='flex-1 overflow-auto p-6'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
             {emailTemplates.map((template, index) => (
@@ -104,11 +75,14 @@ export default function Component() {
                       className='w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-200'
                     />
                   </div>
-                  <div className='space-y-1'></div>
+                  <div className='space-y-1'>
+                    <h3 className='font-semibold text-gray-900'>{template.name}</h3>
+                    <p className='text-xs text-gray-500'>{template.category}</p>
+                  </div>
                 </CardHeader>
                 <CardContent className='pt-0 relative'>
                   <div className='flex items-center justify-between text-xs text-gray-500'>
-                    <span>By EasyEmailPro</span>
+                    <span>Peach Payments</span>
                   </div>
                   <div className='absolute bottom-4 right-4 transition-opacity'>
                     <DropdownMenu>
@@ -121,21 +95,10 @@ export default function Component() {
                           <Pencil className='w-4 h-4' />
                         </Button>
                       </DropdownMenuTrigger>
-                      <DropdownMenuContent
-                        align='end'
-                        side='right'
-                      >
+                      <DropdownMenuContent align='end' side='right'>
                         <DropdownMenuItem>
                           <Link href={`/editor?id=${index + 1}`}>
-                            Open Source Version
-                          </Link>
-                        </DropdownMenuItem>
-
-                        <DropdownMenuItem>
-                          <Link
-                            href={`https://demo.easyemail.pro/template?id=${template.cid}`}
-                          >
-                            Commercial Version
+                            Edit Template
                           </Link>
                         </DropdownMenuItem>
                       </DropdownMenuContent>
@@ -150,10 +113,10 @@ export default function Component() {
             <div className='text-center py-12'>
               <Mail className='w-12 h-12 text-gray-400 mx-auto mb-4' />
               <h3 className='text-lg font-medium text-gray-900 mb-2'>
-                No matching templates found
+                No templates found
               </h3>
               <p className='text-gray-500'>
-                Try adjusting your search criteria or create a new template
+                Add a template JSON file to the data directory
               </p>
             </div>
           )}

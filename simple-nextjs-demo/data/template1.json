@@ -1,38 +1,29 @@
 {
-  "thumbnail": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180236634_photo-1516627145497-ae6968895b74.png",
+  "thumbnail": "https://editor.maool.com/images/uploads/644544/1772742400-Yoyo_Rewards_Email_Headline_Text_V1_-_Compressed.jpg",
   "content": {
     "type": "page",
     "data": {
       "value": {
         "breakpoint": "480px",
-        "headAttributes": "<mj-all font-family=\"Quicksand, Arial, sans-serif\" />\n<mj-text color=\"#4A4A4A\" font-size=\"16px\" line-height=\"1.5\" />\n<mj-button border-radius=\"25px\" font-size=\"16px\" font-weight=\"600\" />",
+        "headAttributes": "",
         "font-size": "14px",
         "font-weight": "400",
         "line-height": "1.7",
         "headStyles": [],
-        "fonts": [
-          {
-            "name": "Quicksand",
-            "href": "https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600"
-          }
-        ],
+        "fonts": [],
         "responsive": true,
-        "font-family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif",
-        "text-color": "#000000"
+        "font-family": "Arial, Helvetica, sans-serif",
+        "text-color": "#5b5d88"
       }
     },
     "attributes": {
-      "background-color": "#F5F7FA",
+      "background-color": "#fefbfa",
       "width": "600px"
     },
     "children": [
       {
         "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
+        "data": { "value": { "noWrap": false } },
         "attributes": {
           "background-repeat": "repeat",
           "background-size": "auto",
@@ -40,14 +31,140 @@
           "border": "none",
           "direction": "ltr",
           "text-align": "center",
-          "padding": "20px 20px 20px 20px"
+          "background-color": "#070a43",
+          "padding": "0px 40px 0px 40px"
         },
         "children": [
           {
             "type": "column",
-            "data": {
-              "value": {}
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
             },
+            "children": [
+              {
+                "type": "spacer",
+                "data": { "value": {} },
+                "attributes": { "height": "10px" },
+                "children": []
+              },
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"font-size:3px;line-height:13px;font-weight:600;color:#070a43;letter-spacing:0.5px;\">Turn every card payment on your Point of Sale device into a loyalty moment</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "center",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              },
+              {
+                "type": "spacer",
+                "data": { "value": {} },
+                "attributes": { "height": "10px" },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#070a43",
+          "padding": "30px 40px 30px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "middle",
+              "width": "50%",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "image",
+                "data": { "value": {} },
+                "attributes": {
+                  "align": "left",
+                  "height": "auto",
+                  "src": "https://editor.maool.com/images/uploads/644544/1726668296-Peach_Payments_Secondary_logo_Filled_Orange_A3_Pantone_-_Compressed.png",
+                  "alt": "Peach Payments Logo",
+                  "href": "https://www.peachpayments.com/",
+                  "width": "110px",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "middle",
+              "width": "50%",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "button",
+                "data": { "value": { "content": "BOOK A DEMO" } },
+                "attributes": {
+                  "align": "right",
+                  "background-color": "#ec5228",
+                  "color": "#ffffff",
+                  "font-weight": "700",
+                  "font-size": "14px",
+                  "border-radius": "4px",
+                  "line-height": "24px",
+                  "target": "_blank",
+                  "vertical-align": "middle",
+                  "border": "none",
+                  "text-align": "center",
+                  "href": "https://hubs.la/Q045TsX40",
+                  "padding": "12px 24px 12px 24px",
+                  "full-width": false
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#070a43",
+          "padding": "0px 0px 0px 0px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
             "attributes": {
               "border": "none",
               "vertical-align": "top",
@@ -56,124 +173,601 @@
             "children": [
               {
                 "type": "image",
-                "data": {
-                  "value": {}
-                },
+                "data": { "value": {} },
                 "attributes": {
                   "align": "center",
                   "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/hwm526rq8_e9s0ynhimam_image.png",
-                  "alt": "Learning Center Logo",
-                  "href": "https://www.easyemail.pro/?utm_source=email_template",
+                  "src": "https://editor.maool.com/images/uploads/644544/1772742400-Yoyo_Rewards_Email_Headline_Text_V1_-_Compressed.jpg",
+                  "alt": "Yoyo Rewards x Peach Payments",
+                  "href": "https://hubs.la/Q045TqH50",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "0px 0px 0px 0px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "image",
+                "data": { "value": {} },
+                "attributes": {
+                  "align": "center",
+                  "height": "auto",
+                  "src": "https://editor.maool.com/images/uploads/644544/1772743485-Yoyo_Rewards_Newsletter_-_Hero_Image_V2_-_Compressed.jpg",
+                  "alt": "Yoyo Rewards Product",
+                  "href": "https://hubs.la/Q045TqLD0",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "25px 40px 10px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<h2 style=\"color:#070a43;font-size:28px;line-height:38px;font-weight:700;margin:0;padding-bottom:10px;\">Hi, {{ contact.firstname }}</h2>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              },
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#5b5d88;font-size:14px;line-height:24px;\">Did you know that loyal customers spend 15\u201320% more every time they buy? Now you can drive that behaviour directly from your Peach Payments POS.</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "32px 40px 4px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<h2 style=\"color:#070a43;font-size:22px;line-height:32px;font-weight:700;margin:0;padding-bottom:10px;\">Activate rewards on my POS</h2>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "4px 40px 0px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#5b5d88;font-size:14px;line-height:24px;padding-bottom:20px;\">Peach Payments enables real-time payouts through a single API for enterprise merchants or an intuitive dashboard for mid-size teams.</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "0px 40px 16px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Customers pay as normal using their card, Apple Pay or Google Pay.</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:12px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;They opt in once with their mobile number.</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:12px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Cashback is earned automatically.</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:12px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;On their next visit, they can burn their rewards, which simply means redeeming them instantly at checkout.</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "0px 0px 0px 0px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "image",
+                "data": { "value": {} },
+                "attributes": {
+                  "align": "center",
+                  "height": "auto",
+                  "src": "https://editor.maool.com/images/uploads/644544/1772743917-Peach_Payments_Yoyo_Rewards_Demo_Video_Newsletter_-_Hero_Image_V1_-_Compressed.jpg",
+                  "alt": "Watch the Demo",
+                  "href": "https://hubs.la/Q045Tvnx0",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "16px 40px 0px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#5b5d88;font-size:14px;line-height:24px;padding-bottom:20px;\">You already rely on Peach POS for alternative payment methods, seamless integration into your current POS setup, customised checkout flows and easy terminal-based refunds.</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "16px 40px 0px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<h2 style=\"color:#070a43;font-size:22px;font-weight:700;line-height:32px;margin:0;padding-bottom:10px;\">Now you can also:</h2>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "0px 40px 16px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Drive repeat visits</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:8px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Increase basket size</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:8px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Build loyalty without operational complexity</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:8px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Run seasonal or promotional cashback campaigns</p><hr style=\"border:none;border-top:1px solid #F1F1F1;margin:8px 0;\"><p style=\"color:#5b5d88;font-size:14px;line-height:28px;\"><span style=\"color:#ec5228;font-size:20px;\">●</span>&nbsp;&nbsp;Measure customer engagement directly from transactions</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "spacer",
+        "data": { "value": {} },
+        "attributes": { "height": "32px" },
+        "children": []
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "background-size": "cover",
+          "background-position": "center top",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "background-url": "https://editor.maool.com/images/uploads/644544/1693499614-Free_Processing_Drip_Email_2_-_Footer_Banner.png",
+          "padding": "35px 40px 86px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#ffffff;font-size:16px;line-height:26px;padding-bottom:30px;\">Yoyo also offers gift cards and vouchers for larger enterprises! Chat to us today to learn more, and let\u2019s turn every payment into a reason to come back.</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "center",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              },
+              {
+                "type": "button",
+                "data": { "value": { "content": "GET IN TOUCH" } },
+                "attributes": {
+                  "align": "center",
+                  "background-color": "#ec5228",
+                  "color": "#ffffff",
+                  "font-weight": "600",
+                  "font-size": "14px",
+                  "border-radius": "4px",
+                  "line-height": "24px",
+                  "target": "_blank",
+                  "vertical-align": "middle",
+                  "border": "none",
+                  "text-align": "center",
+                  "href": "https://hubs.la/Q045TtBG0",
+                  "padding": "14px 36px 14px 36px",
+                  "full-width": false
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "64px 40px 15px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "middle",
+              "width": "10%",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "image",
+                "data": { "value": {} },
+                "attributes": {
+                  "align": "center",
+                  "height": "auto",
+                  "src": "https://editor.maool.com/images/uploads/644544/1714136876-Peach_Payments_Favicon_filled.png",
+                  "alt": "Peach Payments",
+                  "width": "50px",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "middle",
+              "width": "90%",
+              "padding": "0px 0px 0px 10px"
+            },
+            "children": [
+              {
+                "type": "text",
+                "data": {
+                  "value": {
+                    "content": "<p style=\"color:#070a43;font-size:16px;line-height:26px;font-weight:600;margin:0;\">Kind regards,</p><p style=\"color:#9699c7;font-size:14px;line-height:24px;margin:0;\">The Peach Payments Team</p>"
+                  }
+                },
+                "attributes": {
+                  "align": "left",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#ffffff",
+          "padding": "0px 40px 30px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "divider",
+                "data": { "value": {} },
+                "attributes": {
+                  "border-color": "#ffffff",
+                  "border-style": "solid",
+                  "border-width": "0px",
+                  "width": "100%",
+                  "padding": "0px 0px 0px 0px"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "data": { "value": { "noWrap": false } },
+        "attributes": {
+          "background-repeat": "repeat",
+          "background-size": "auto",
+          "background-position": "top center",
+          "border": "none",
+          "direction": "ltr",
+          "text-align": "center",
+          "background-color": "#070a43",
+          "padding": "50px 40px 50px 40px"
+        },
+        "children": [
+          {
+            "type": "column",
+            "data": { "value": {} },
+            "attributes": {
+              "border": "none",
+              "vertical-align": "top",
+              "padding": "0px 0px 0px 0px"
+            },
+            "children": [
+              {
+                "type": "image",
+                "data": { "value": {} },
+                "attributes": {
+                  "align": "center",
+                  "height": "auto",
+                  "src": "https://editor.maool.com/images/uploads/644544/1737627047-Peach_Payments_Secondary_logo_Filled_White_A3_RGB.png",
+                  "alt": "Peach Payments",
+                  "href": "https://www.peachpayments.com/",
                   "width": "150px",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "padding": "0px 20px 0px 20px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180236634_photo-1516627145497-ae6968895b74.png",
-                  "alt": "Happy Learning Kids",
-                  "css-class": "rounded-section",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#ffffff",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Welcome to Our Learning Adventure! 🌈"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#FF6B6B",
-                  "font-size": "28px",
-                  "font-weight": "600",
-                  "padding": "10px 25px 10px 25px"
+                  "padding": "0px 0px 30px 0px"
                 },
                 "children": []
               },
@@ -181,72 +775,24 @@
                 "type": "text",
                 "data": {
                   "value": {
-                    "content": "Where every day brings new discoveries and fun learning experiences"
+                    "content": "<p style=\"color:#ffffff;font-size:14px;line-height:24px;padding-bottom:20px;\">Africa's trusted payment gateway with easy ecommerce integrations and 365-day phone &amp; email support.</p>"
                   }
                 },
                 "attributes": {
                   "align": "center",
-                  "padding": "10px 25px 10px 25px"
+                  "padding": "0px 0px 0px 0px"
                 },
                 "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#ffffff",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "50%",
-              "padding": "10px 10px 10px 10px"
-            },
-            "children": [
+              },
               {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
+                "type": "divider",
+                "data": { "value": {} },
                 "attributes": {
-                  "align": "center",
-                  "height": "200px",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180236634_photo-1516627145497-ae6968895b74.png",
-                  "alt": "Creative Arts",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
+                  "border-color": "#6e71a6",
+                  "border-style": "solid",
+                  "border-width": "1px",
+                  "width": "100%",
+                  "padding": "0px 0px 10px 0px"
                 },
                 "children": []
               },
@@ -254,782 +800,60 @@
                 "type": "text",
                 "data": {
                   "value": {
-                    "content": "🎨 Creative Arts"
+                    "content": "<p style=\"color:#ffffff;font-size:14px;line-height:24px;font-weight:600;padding-bottom:10px;\"><a href=\"https://www.peachpayments.com/\" style=\"color:#ffffff;text-decoration:none;\">Products</a>&nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://www.peachpayments.com/about/\" style=\"color:#ffffff;text-decoration:none;\">About</a>&nbsp; &nbsp; &nbsp;<a href=\"https://www.peachpayments.com/media/\" style=\"color:#ffffff;text-decoration:none;\">News &amp; Media</a>&nbsp; &nbsp; &nbsp; &nbsp;<a href=\"https://www.peachpayments.com/contact/\" style=\"color:#ffffff;text-decoration:none;\">Contact</a></p>"
                   }
                 },
                 "attributes": {
                   "align": "center",
-                  "color": "#4A90E2",
-                  "font-size": "20px",
-                  "padding": "15px 25px 10px 25px"
+                  "padding": "0px 0px 0px 0px"
                 },
                 "children": []
               },
               {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Express yourself through colors and shapes"
-                  }
-                },
+                "type": "divider",
+                "data": { "value": {} },
                 "attributes": {
-                  "align": "center",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "50%",
-              "padding": "10px 10px 10px 10px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "200px",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180505405_photo-1488521787991-ed7bbaae773c_w_600.png",
-                  "alt": "Music & Movement",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
+                  "border-color": "#6e71a6",
+                  "border-style": "solid",
+                  "border-width": "1px",
+                  "width": "100%",
+                  "padding": "0px 0px 20px 0px"
                 },
                 "children": []
               },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "🎵 Music & Movement"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#FF6B6B",
-                  "font-size": "20px",
-                  "padding": "15px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Dance, sing, and explore rhythm"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#F8F9FA",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Our Learning Programs"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#4A4A4A",
-                  "font-size": "24px",
-                  "font-weight": "600",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#F8F9FA",
-          "padding": "0px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "33.33%",
-              "padding": "10px 10px 10px 10px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180715636_photo-1560969184-10fe8719e047_w_600.png",
-                  "alt": "Early Learning",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Early Learning"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#4A90E2",
-                  "font-size": "18px",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "33.33%",
-              "padding": "10px 10px 10px 10px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180822957_photo-1509062522246-3755977927d7.png",
-                  "alt": "STEM Activities",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "STEM Activities"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#4A90E2",
-                  "font-size": "18px",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "33.33%",
-              "padding": "10px 10px 10px 10px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359181061238_photo-1549737328-8b9f3252b927_w_600.png",
-                  "alt": "Language Arts",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Language Arts"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#4A90E2",
-                  "font-size": "18px",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#FFE0F7",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "60%",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Story Time Adventures"
-                  }
-                },
-                "attributes": {
-                  "align": "left",
-                  "color": "#9C27B0",
-                  "font-size": "24px",
-                  "font-weight": "600",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Join us every Friday for magical storytelling sessions!"
-                  }
-                },
-                "attributes": {
-                  "align": "left",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "button",
-                "data": {
-                  "value": {
-                    "content": "Learn More"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "background-color": "#9C27B0",
-                  "color": "#ffffff",
-                  "font-weight": "normal",
-                  "border-radius": "3px",
-                  "line-height": "120%",
-                  "target": "_blank",
-                  "vertical-align": "middle",
-                  "border": "none",
-                  "text-align": "center",
-                  "href": "#",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "40%",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359181061238_photo-1549737328-8b9f3252b927_w_600.png",
-                  "alt": "Story Time",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#E3F2FD",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Parent Resources"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#1976D2",
-                  "font-size": "24px",
-                  "font-weight": "600",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Stay connected with your child's learning journey"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              },
-              {
-                "type": "button",
-                "data": {
-                  "value": {
-                    "content": "Access Portal"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "background-color": "#1976D2",
-                  "color": "#ffffff",
-                  "font-weight": "normal",
-                  "border-radius": "3px",
-                  "line-height": "120%",
-                  "target": "_blank",
-                  "vertical-align": "middle",
-                  "border": "none",
-                  "text-align": "center",
-                  "href": "#",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#ffffff",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
-              {
-                "type": "text",
-                "data": {
-                  "value": {
-                    "content": "Learning Moments"
-                  }
-                },
-                "attributes": {
-                  "align": "center",
-                  "color": "#4A4A4A",
-                  "font-size": "24px",
-                  "font-weight": "600",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#ffffff",
-          "padding": "0px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "25%",
-              "padding": "5px 5px 5px 5px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180236634_photo-1516627145497-ae6968895b74.png",
-                  "alt": "Gallery 1",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "25%",
-              "padding": "5px 5px 5px 5px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180505405_photo-1488521787991-ed7bbaae773c_w_600.png",
-                  "alt": "Gallery 2",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "25%",
-              "padding": "5px 5px 5px 5px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359180822957_photo-1509062522246-3755977927d7.png",
-                  "alt": "Gallery 3",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          },
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "width": "25%",
-              "padding": "5px 5px 5px 5px"
-            },
-            "children": [
-              {
-                "type": "image",
-                "data": {
-                  "value": {}
-                },
-                "attributes": {
-                  "align": "center",
-                  "height": "auto",
-                  "src": "https://cdn.shopify.com/s/files/1/0863/8971/9346/files/17359181061238_photo-1549737328-8b9f3252b927_w_600.png",
-                  "alt": "Gallery 4",
-                  "css-class": "activity-card",
-                  "padding": "10px 25px 10px 25px"
-                },
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "spacer",
-        "data": {
-          "value": {}
-        },
-        "attributes": {
-          "height": "20px"
-        },
-        "children": []
-      },
-      {
-        "type": "section",
-        "data": {
-          "value": {
-            "noWrap": false
-          }
-        },
-        "attributes": {
-          "background-repeat": "repeat",
-          "background-size": "auto",
-          "background-position": "top center",
-          "border": "none",
-          "direction": "ltr",
-          "text-align": "center",
-          "background-color": "#ffffff",
-          "css-class": "rounded-section",
-          "padding": "20px 0px 20px 0px"
-        },
-        "children": [
-          {
-            "type": "column",
-            "data": {
-              "value": {}
-            },
-            "attributes": {
-              "border": "none",
-              "vertical-align": "top",
-              "padding": "0px 0px 0px 0px"
-            },
-            "children": [
               {
                 "type": "advanced_social",
                 "data": {
                   "value": {
                     "elements": [
                       {
-                        "href": "#",
+                        "href": "https://www.linkedin.com/company/peach-payments",
                         "target": "_blank",
-                        "src": "https://easy-email-m-ryan.vercel.app/images/acbae5eb-efa4-4eb6-866c-f421e740b713-ad3c92b1-9cdb-4a7b-aad3-75ad809db8a3.png",
+                        "src": "https://editor.maool.com/images/social/sms2/linkedin.png",
                         "content": ""
                       },
                       {
-                        "href": "#",
+                        "href": "https://www.youtube.com/channel/UCY2gzSFIVpTTRp8MaO7BXiQ",
                         "target": "_blank",
-                        "src": "https://easy-email-m-ryan.vercel.app/images/98520d6c-5cef-449e-bcbf-6316ccec2088-e8780361-0deb-4896-895e-e690c886cdf0.png",
+                        "src": "https://editor.maool.com/images/social/sms2/youtube.png",
                         "content": ""
                       },
                       {
-                        "href": "",
+                        "href": "https://www.instagram.com/peachpayments",
                         "target": "_blank",
-                        "src": "https://easy-email-m-ryan.vercel.app/images/b064f705-34ba-4400-975e-9dd0cec21c30-cc9aa158-56bd-4bf1-b532-72390d25c864.png",
+                        "src": "https://editor.maool.com/images/social/sms2/instagram.png",
+                        "content": ""
+                      },
+                      {
+                        "href": "https://www.twitter.com/peachpayments",
+                        "target": "_blank",
+                        "src": "https://editor.maool.com/images/social/sms2/twitter.png",
+                        "content": ""
+                      },
+                      {
+                        "href": "https://www.facebook.com/peachpayments",
+                        "target": "_blank",
+                        "src": "https://editor.maool.com/images/social/sms2/facebook.png",
                         "content": ""
                       }
                     ]
@@ -1037,17 +861,17 @@
                 },
                 "attributes": {
                   "align": "center",
-                  "color": "#333333",
+                  "color": "#ffffff",
                   "mode": "horizontal",
                   "font-size": "13px",
                   "font-weight": "normal",
                   "border-radius": "3px",
-                  "padding": "10px 25px 10px 25px",
+                  "padding": "0px 0px 20px 0px",
                   "inner-padding": "4px 4px 4px 4px",
                   "line-height": "22px",
-                  "text-padding": "4px 4px 4px 0px",
+                  "text-padding": "4px 4px 0px 0px",
                   "icon-padding": "0px",
-                  "icon-size": "20px"
+                  "icon-size": "40px"
                 },
                 "children": []
               },
@@ -1055,13 +879,12 @@
                 "type": "text",
                 "data": {
                   "value": {
-                    "content": "123 Learning Street, Fun City 12345"
+                    "content": "<p style=\"color:#ffffff;font-size:14px;line-height:24px;\">{{ site_settings.company_name }}, {{ site_settings.company_street_address_1 }}, {{ site_settings.company_street_address_2 }}, {{ site_settings.company_city }}, {{ site_settings.company_state }}, {{ site_settings.company_zip }}, {{ site_settings.company_country }}</p>"
                   }
                 },
                 "attributes": {
                   "align": "center",
-                  "font-size": "14px",
-                  "padding": "10px 25px 10px 25px"
+                  "padding": "0px 0px 0px 0px"
                 },
                 "children": []
               },
@@ -1069,13 +892,12 @@
                 "type": "text",
                 "data": {
                   "value": {
-                    "content": "© 2024 Kids Learning Center. All rights reserved."
+                    "content": "<p style=\"color:#ffffff;font-size:14px;line-height:24px;\">Call us: <a href=\"tel:+27 21 200 5877\" style=\"color:#9595c4;text-decoration:none;\"><strong>+27 21 200 5877</strong></a> | Email us: <a href=\"mailto:support@peachpayments.com\" style=\"color:#9595c4;text-decoration:none;\">support@peachpayments.com</a><br>You are currently subscribed to {{ subscription_name }} from {{ site_settings.company_name }}.<br>Manage Subscription: <a href=\"{{ unsubscribe_link }}\" style=\"color:#9595c4;text-decoration:none;\"><strong>Update Your Preferences</strong></a> or <a href=\"{{ unsubscribe_link_all }}\" style=\"color:#9595c4;text-decoration:none;\"><strong>Unsubscribe</strong></a></p>"
                   }
                 },
                 "attributes": {
                   "align": "center",
-                  "font-size": "14px",
-                  "padding": "10px 25px 10px 25px"
+                  "padding": "0px 0px 0px 0px"
                 },
                 "children": []
               }
@@ -1084,6 +906,5 @@
         ]
       }
     ]
-  },
-  "cid": "cmd36ihjh0001ic07od6q0p5a"
+  }
 }
